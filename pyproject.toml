@@ -14,5 +14,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/annt132222/boto3module"
-Issues = "https://github.com/annt132222/boto3module/issues"
+Homepage = "https://github.com/annt132222/myboto3module"
+Issues = "https://github.com/annt132222/myboto3module/issues"

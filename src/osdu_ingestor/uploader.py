@@ -4,7 +4,7 @@ from botocore.config import Config as BotoConfig
 from concurrent.futures import ThreadPoolExecutor
 from .config import Config
 import os
-from .utils import create_metadata
+from .osdu_utils import create_metadata
 
 class UpLoader:
     def __init__(self, file_paths, progress_callback=None, complete_callback=None):

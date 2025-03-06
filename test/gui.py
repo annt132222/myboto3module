@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
-from myyboto3module import uploader
+from osdu_ingestor import uploader
 
 class FileUploadApp:
     def __init__(self, root):

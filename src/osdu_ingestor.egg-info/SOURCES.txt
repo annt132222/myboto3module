@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/osdu_ingestor/__init__.py
+src/osdu_ingestor/config.py
+src/osdu_ingestor/osdu_utils.py
+src/osdu_ingestor/uploader.py
+src/osdu_ingestor.egg-info/PKG-INFO
+src/osdu_ingestor.egg-info/SOURCES.txt
+src/osdu_ingestor.egg-info/dependency_links.txt
+src/osdu_ingestor.egg-info/top_level.txt

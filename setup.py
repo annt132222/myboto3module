@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="myyboto3module",
+    name="osdu_ingestor",
     version="0.0.1",
     packages=find_packages(where="src"),
     package_dir={"": "src"},

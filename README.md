@@ -1,3 +1,3 @@
 # Example Package
 
-This is a simple example package for boto3.
+Module upload sử dụng boto3, botocore

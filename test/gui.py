@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog, ttk, messagebox
-from uploader import UpLoader
+from myyboto3module import uploader
 
 class FileUploadApp:
     def __init__(self, root):
@@ -69,8 +69,8 @@ class FileUploadApp:
         self.retry_button.pack_forget()
         self.active_uploads = len(self.file_paths)
         
-        uploader = UpLoader(self.file_paths, self.update_progress, self.upload_complete)
-        uploader.upload_files()
+        uploaders = uploader.UpLoader(self.file_paths, self.update_progress, self.upload_complete)
+        uploaders.upload_files()
 
     def upload_complete(self, file_path):
         self.active_uploads -= 1
